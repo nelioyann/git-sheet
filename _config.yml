@@ -1,1 +1,12 @@
+
+# basic options
+title: Git Sheet
+author:Yannick Nana
+email: nanayannick1998@gmail.com
+description: A wonderful site
+twitter_username: nelioyann
+github_username:  nelioyann
+
+# Build settings
+markdown: html
 theme: jekyll-theme-hacker
