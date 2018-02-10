@@ -28,7 +28,11 @@
         <code>git rm --cached [file] </code>
         <h4>Comitting files from the staging area</h4>
         <code>git commit -a[=all] -m[message to add] "actual message" </code>
-        
+        <h4>Adding a remote </h4>
+        <code>git remote add origin[name chosen by convention/can be changed] giturl </code>
+        <h4>Removing a remote</h4>
+        <code>git remote remove origin[or chosen name]</code>
+
         <h3>Specifing user identity</h3>
         <h4>Setting the username and email adress</h4>
         <code>git config --global user.name "ne*****n"</code>
@@ -44,7 +48,12 @@
         <h3>Push on Github. the remote</h3>
         <h4>Shows all the remotes associated with the account</h4>
         <code>git remote </code>
-
+        <code>git remote -v</code>
+        <h4>Pushing to master</h4>
+        <code>git push origin master</code>
+        <h3>Pull from github</h3>
+        <h4>Pull</h4>
+        <code>git pull origin master</code>
     </div>
     <script src="script.js"></script>
 </body>
