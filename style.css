@@ -1,12 +1,11 @@
 :root {
     --light: #DEE4E7;
     --dark: #37474F;
-    --darker:#666;
+    --darker: #666;
     --black: #222222;
     --blacker: #151515;
-    --blackest:#000;
+    --blackest: #000;
     --basicgreen: #b5e853;
-    
 }
 
 body {
@@ -19,38 +18,66 @@ body {
     background-position-x: 0px;
     background-position-y: 0px;
     background-size: auto auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 header {
     text-align: center;
     border-bottom: 1px dashed var(--basicgreen);
 }
-header h2{
+
+header h1{
+    font-weight: bold;
+}
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+header h2 {
     color: var(--darker);
+    font-size: 24px;
     font-weight: 300;
 }
-.commands{
+
+.commands {
     width: 90%;
     max-width: 600px;
     margin: 0 auto;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5 {
+    font-weight: normal;
+    letter-spacing: -0.03em;
     color: var(--basicgreen);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-pre{
-    background-color:var(--blackest) ;
+pre {
+    background-color: var(--blackest);
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 2px;
+    overflow: auto;
 }
 
-code{
+code {
     color: var(--light);
-    
 }
