@@ -23,6 +23,10 @@ body {
     line-height: 1.5;
 }
 
+footer{
+    width: 100%;
+    margin: 500px 0px 0px 0px;
+}
 header {
     text-align: center;
     border-bottom: 1px dashed var(--basicgreen);
