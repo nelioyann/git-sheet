@@ -1,0 +1,56 @@
+:root {
+    --light: #DEE4E7;
+    --dark: #37474F;
+    --darker:#666;
+    --black: #222222;
+    --blacker: #151515;
+    --blackest:#000;
+    --basicgreen: #b5e853;
+    
+}
+
+body {
+    background-color: var(--blacker);
+    background-image: url("bkg.png");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: auto auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px dashed var(--basicgreen);
+}
+header h2{
+    color: var(--darker);
+    font-weight: 300;
+}
+.commands{
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--basicgreen);
+}
+
+pre{
+    background-color:var(--blackest) ;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 2px;
+}
+
+code{
+    color: var(--light);
+    
+}

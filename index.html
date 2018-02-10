@@ -18,42 +18,42 @@
     <div class="commands">
         <h3>Starting with a local file and turn it in a git repository</h3>
         <h4>Turns a folder into a git repository</h4>
-        <code>git init</code>
+        <pre><code>git init</code></pre>
         <h4>Check the status of a folder</h4>
-        <code>git status</code>
+        <pre><code>git status</code></pre>
         <h4>Commiting the changes made to a new file to a git repository/ Putting the files to commit in the staging area</h4>
-        <code>git add [file]</code>
-        <code>git add .</code>
+        <pre><code>git add [file]</code></pre>
+        <pre><code>git add .</code></pre>
         <h4>Removing a file from the staging area</h4>
-        <code>git rm --cached [file] </code>
+        <pre><code>git rm --cached [file] </code></pre>
         <h4>Comitting files from the staging area</h4>
-        <code>git commit -a[=all] -m[message to add] "actual message" </code>
+        <pre><code>git commit -a[=all] -m[message to add] "actual message" </code></pre>
         <h4>Adding a remote </h4>
-        <code>git remote add origin[name chosen by convention/can be changed] giturl </code>
+        <pre><code>git remote add origin[name chosen by convention/can be changed] giturl </code></pre>
         <h4>Removing a remote</h4>
-        <code>git remote remove origin[or chosen name]</code>
+        <pre><code>git remote remove origin[or chosen name]</code></pre>
 
         <h3>Specifing user identity</h3>
         <h4>Setting the username and email adress</h4>
-        <code>git config --global user.name "ne*****n"</code>
-        <code>git config --global user.email "n*******@****.com"</code>
+        <pre><code>git config --global user.name "ne*****n"</code></pre>
+        <pre><code>git config --global user.email "n*******@****.com"</code></pre>
         <h4>Checking it</h4>
-        <code>git config --list </code>
+        <pre><code>git config --list </code></pre>
         <h4>Checking the logs/ Last commits made</h4>
-        <code>git log</code>
+        <pre><code>git log</code></pre>
 
         <h3>Quitting Vim</h4>
-        <code>:q</code>
+            <pre><code>:q</code></pre>
 
-        <h3>Push on Github. the remote</h3>
-        <h4>Shows all the remotes associated with the account</h4>
-        <code>git remote </code>
-        <code>git remote -v</code>
-        <h4>Pushing to master</h4>
-        <code>git push origin master</code>
-        <h3>Pull from github</h3>
-        <h4>Pull</h4>
-        <code>git pull origin master</code>
+            <h3>Push on Github. the remote</h3>
+            <h4>Shows all the remotes associated with the account</h4>
+            <pre><code>git remote </code></pre>
+            <pre><code>git remote -v</code></pre>
+            <h4>Pushing to master</h4>
+            <pre><code>git push origin master</code></pre>
+            <h3>Pull from github</h3>
+            <h4>Update the local repository</h4>
+            <pre><code>git pull origin[remote] master[branch]</code></pre>
     </div>
     <script src="script.js"></script>
 </body>
