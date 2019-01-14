@@ -15,6 +15,14 @@
     </header>
 
     <div class="commands">
+      <h2>Git Workflow</h2>
+      <h3></h3>
+      <ul>
+        <li><h4>Working Directory</h4></li>
+        <li><h4>Staging Area(tracked files)</h4></li>
+        <li><h4>HEAD</h4></li>
+      </ul>
+
       <h2>Starting with a local file and turn it in a git repository</h2>
       <h3>Turns a folder into a git repository</h3>
       <pre><code>git init</code></pre>
@@ -44,8 +52,8 @@
       <h3>Checking the logs/ Last commits made</h3>
       <pre><code>git log</code></pre>
 
-      <h2>Quitting Vim</h2>
-      <pre><code>:q</code></pre>
+      <h2>Quitting Vim(escape)</h2>
+      <pre><code>:q or :wq</code></pre>
 
       <h2>Push on Github. the remote</h2>
       <h3>Shows all the remotes associated with the account</h3>
@@ -53,23 +61,30 @@
       <pre><code>git remote -v</code></pre>
       <h3>Pushing to master</h3>
       <pre><code>git push origin master</code></pre>
-      <h2>Pull from github</h2>
+      <h2>Pull from github (fetch + merge)</h2>
       <h3>Update the local repository</h3>
       <pre><code>git pull origin[remote] master[branch]</code></pre>
 
       <h2>Branching</h2>
+      <h3>Creating a newbranch</h3>
+      <pre><code>git branch {branchname}</code></pre>
       <h3>Creating a new branch and switch to it</h3>
-      <pre><code>git checkout -b [branchname]</code></pre>
+      <pre><code>git checkout -b {branchname}</code></pre>
       <h3>Switching branches</h3>
-      <pre><code>git checkout [branchname]</code></pre>
+      <pre><code>git checkout {branchname}</code></pre>
       <h3>Deleting branch</h3>
-      <pre><code>git branch -d [branchname]</code></pre>
+      <pre><code>git branch -d {branchname}</code></pre>
       <h3>Listing branches on local repository</h3>
       <pre><code>git branch</code></pre>
+
+      <h3>Fetching new changes from repo,DL data</h3>
+      <pre><code>git fetch origin</code></pre>
+      <h3>Merging new changes from branch to master (while on master)</h3>
+      <pre><code>git merge {branch}</code></pre>
+
+      <h2>Cloning a repo to work locally</h2>
       <h3></h3>
-      <pre><code></code></pre>
-      <h3></h3>
-      <pre><code></code></pre>
+      <pre><code>git clone giturl</code></pre>
     </div>
     <footer></footer>
     <script src="script.js"></script>
